@@ -53,6 +53,9 @@ BOARD_VENDOR_USE_AKMD := akm8973
 
 BOARD_EGL_CFG := device/htc/passion-common/egl.cfg
 
+BOARD_HAVE_FM_RADIO := true
+BOARD_GLOBAL_CFLAGS += -DHAVE_FM_RADIO
+
 # # cat /proc/mtd
 # dev:    size   erasesize  name
 # mtd0: 000e0000 00020000 "misc"
